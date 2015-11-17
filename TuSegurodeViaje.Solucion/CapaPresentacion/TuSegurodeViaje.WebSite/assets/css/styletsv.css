@@ -1,0 +1,151 @@
+@font-face {
+	font-family: 'icomoontsv';
+	src:url('../fonts/fontstsv/icomoontsv.eot?1ytlwx');
+	src:url('../fonts/fontstsv/icomoontsv.eot?1ytlwx#iefix') format('embedded-opentype'),
+		url('../fonts/fontstsv/icomoontsv.ttf?1ytlwx') format('truetype'),
+		url('../fonts/fontstsv/icomoontsv.woff?1ytlwx') format('woff'),
+		url('../fonts/fontstsv/icomoontsv.svg?1ytlwx#icomoontsv') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoontsv';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.ico-1 {font-size: 4em;}
+.ico-2 {font-size: 3em;	vertical-align: middle;}
+/*
+.fglobos {padding: 1em;}
+
+.fglobos a {	
+ color:#fff; text-shadow: 1px 1px 2px #000;
+ margin-right: 0.7em;
+ display: inline-block;
+ height: 4em;
+}
+.fglobos a:hover {	
+ color:#fff; text-shadow: 1px 1px 2px #000;
+ 
+ font-size: 1.09em;
+}*/
+
+.icon-ico-objetos:before {
+	content: "\e800";
+	color:#FCDC91;
+}
+.icon-ico-deportes:before {
+	content: "\e801";
+	color:#82B561;
+}
+.icon-ico-embarazada:before {
+	content: "\e802";
+	color:#E9D7E9;
+}
+.icon-ico-cruceros:before {
+	content: "\e803";
+	color:#59B5C9;
+}
+.icon-ico-valijas:before {
+	content: "\e804";
+	color:#F9AD96;
+}
+.icon-ico-preexistente:before {
+	content: "\e805";
+	color:#878C4A;
+}
+.icon-ico-consultorio:before {
+	content: "\e806";
+}
+.icon-ico-regreso:before {
+	content: "\e807";
+	color:#456B8D;
+}
+.icon-ico-odontologo:before {
+	content: "\e808";
+	color:#F9CB99;
+}
+.icon-ico-medica:before {
+	content: "\e809";
+	color:#3D7257;
+}
+.icon-ico-legal:before {
+	content: "\e80a";
+	color:#97CCB3;
+}
+.icon-ico-grupo:before {
+	content: "\e80b";
+	color:#EADF69;
+}
+.icon-ico-internacionales:before {
+	content: "\e80c";
+	color:#D8693A;
+}
+.icon-ico-medicamentos:before {
+	content: "\e80d";
+	color:#97CAD0;
+}
+.icon-ico-mochileros:before {
+	content: "\e80e";
+	color:#79484E;
+}
+.icon-ico-examenes:before {
+	content: "\e80f";
+	color:#FBD9DC;
+}
+.icon-ico-linea:before {
+	content: "\e810";
+	color:#FDE37A;
+}
+#navmio .icon-ico-linea:before {
+	content: "\e810";
+	color:#fff;
+	font-size: 1.7em;
+	vertical-align: middle;
+}
+.icon-ico-coronaria:before {
+	content: "\e811";
+	color:#D5C001;
+}
+.icon-ico-repatriacion:before {
+	content: "\e812";
+	color:#456B8D;
+}
+.icon-ico-tarjetas:before {
+	content: "\e813";
+	color:#E3B8B9;
+}
+.icon-ico-odontologia:before {
+	content: "\e814";
+	color:#9DABCA;
+}
+.icon-ico-ambulancia:before {
+	content: "\e815";
+	color:#B2D9C6;
+}
+.icon-ico-mensajes:before {
+	content: "\e816";
+	color:#524660;
+}
+.icon-ico-terapias:before {
+	content: "\e817";
+	color:#E3B8B9;
+}
+.icon-ico-intercambios:before {
+	content: "\e818";
+	color:#C25A35;
+}
+.icon-ico-terceraedad:before {
+	content: "\e819";
+	color:#A3D8C4;
+}
+

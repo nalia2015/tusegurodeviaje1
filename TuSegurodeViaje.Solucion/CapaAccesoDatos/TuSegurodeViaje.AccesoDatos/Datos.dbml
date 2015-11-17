@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="TuSegurodeViaje" Class="DatosDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=NATALIA-PC\;Initial Catalog=TuSegurodeViaje;Integrated Security=True" SettingsObjectName="TuSegurodeViaje.AccesoDatos.Properties.Settings" SettingsPropertyName="TuSegurodeViajeConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.spBusquedaAvanzadadeTarifas" Method="spBusquedaAvanzadadeTarifas">
+    <Parameter Name="IDOrigen" Parameter="iDOrigen" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IDDestino" Parameter="iDDestino" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FechaDesde" Parameter="fechaDesde" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="FechaHasta" Parameter="fechaHasta" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="Edad1" Parameter="edad1" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Edad2" Parameter="edad2" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Edad3" Parameter="edad3" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Edad4" Parameter="edad4" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Edad5" Parameter="edad5" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Edad6" Parameter="edad6" Type="System.Int32" DbType="Int" />
+    <Parameter Name="email" Type="System.String" DbType="VarChar(50)" />
+  </Function>
+</Database>

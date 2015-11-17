@@ -1,0 +1,1034 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{28F186B9-BD35-438C-968F-2C6BDD351EE4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TuSegurodeViaje.WebSite</RootNamespace>
+    <AssemblyName>TuSegurodeViaje.WebSite</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="mercadopago, Version=0.3.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\mercadopago.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="11\assets\css\font-awesome.min.css" />
+    <Content Include="11\assets\css\ie8.css" />
+    <Content Include="11\assets\css\ie9.css" />
+    <Content Include="11\assets\css\images\arrow.svg" />
+    <Content Include="11\assets\css\images\bars.svg" />
+    <Content Include="11\assets\css\images\close.svg" />
+    <Content Include="11\assets\css\main.css" />
+    <Content Include="11\assets\js\ie\backgroundsize.min.htc" />
+    <Content Include="11\assets\js\ie\html5shiv.js" />
+    <Content Include="11\assets\js\ie\respond.min.js" />
+    <Content Include="11\assets\js\jquery.min.js" />
+    <Content Include="11\assets\js\jquery.scrollex.min.js" />
+    <Content Include="11\assets\js\jquery.scrolly.min.js" />
+    <Content Include="11\assets\js\main.js" />
+    <Content Include="11\assets\js\skel.min.js" />
+    <Content Include="11\assets\js\util.js" />
+    <Content Include="Account\11\assets\css\font-awesome.min.css" />
+    <Content Include="Account\11\assets\css\ie8.css" />
+    <Content Include="Account\11\assets\css\ie9.css" />
+    <Content Include="Account\11\assets\css\images\arrow.svg" />
+    <Content Include="Account\11\assets\css\images\bars.svg" />
+    <Content Include="Account\11\assets\css\images\close.svg" />
+    <Content Include="Account\11\assets\css\main.css" />
+    <Content Include="Account\11\assets\js\ie\backgroundsize.min.htc" />
+    <Content Include="Account\11\assets\js\ie\html5shiv.js" />
+    <Content Include="Account\11\assets\js\ie\respond.min.js" />
+    <Content Include="Account\11\assets\js\jquery.min.js" />
+    <Content Include="Account\11\assets\js\jquery.scrollex.min.js" />
+    <Content Include="Account\11\assets\js\jquery.scrolly.min.js" />
+    <Content Include="Account\11\assets\js\main.js" />
+    <Content Include="Account\11\assets\js\skel.min.js" />
+    <Content Include="Account\11\assets\js\util.js" />
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="afiliados-agentes-brokers-productores.aspx" />
+    <Content Include="afiliados-agentes-brokers-productores.html" />
+    <Content Include="assets\csspres\aantessstyle1.css" />
+    <Content Include="assets\csspres\normalize.css" />
+    <Content Include="assets\csspres\style1.css" />
+    <Content Include="assets\csspres\style2.css" />
+    <Content Include="assets\css\colorbox.css" />
+    <Content Include="assets\css\component.css" />
+    <Content Include="assets\css\default.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\ie8.css" />
+    <Content Include="assets\css\images\arrow.svg" />
+    <Content Include="assets\css\images\bars.svg" />
+    <Content Include="assets\css\images\border.png" />
+    <Content Include="assets\css\images\close.svg" />
+    <Content Include="assets\css\images\controls - copia.png" />
+    <Content Include="assets\css\images\controls.png" />
+    <Content Include="assets\css\images\formadepago1.jpg" />
+    <Content Include="assets\css\images\loading.gif" />
+    <Content Include="assets\css\images\loading_background.png" />
+    <Content Include="assets\css\images\overlay.png" />
+    <Content Include="assets\css\images\overlay222.png" />
+    <Content Include="assets\css\index.html" />
+    <Content Include="assets\css\jquery.bxslider.css" />
+    <Content Include="assets\css\main.css" />
+    <Content Include="assets\css\mainboos.css" />
+    <Content Include="assets\css\style.css" />
+    <Content Include="assets\css\styletsv.css" />
+    <Content Include="assets\fonts\bpicons\bpicons.svg" />
+    <Content Include="assets\fonts\bpicons\license.txt" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\fontstsv\icomoontsv.svg" />
+    <Content Include="assets\fonts\icomoon\icomoon.svg" />
+    <Content Include="assets\fonts\icomoon_arrows\icomoon.dev.svg" />
+    <Content Include="assets\fonts\icomoon_arrows\icomoon.svg" />
+    <Content Include="assets\images\22.jpg" />
+    <Content Include="assets\images\bx_loader.gif" />
+    <Content Include="assets\images\colorbox\border.png" />
+    <Content Include="assets\images\colorbox\controls.png" />
+    <Content Include="assets\images\colorbox\loading_background.png" />
+    <Content Include="assets\images\colorbox\overlay.png" />
+    <Content Include="assets\images\contacto.png" />
+    <Content Include="assets\images\controls.png" />
+    <Content Include="assets\images\favicon.png" />
+    <Content Include="assets\images\skype.png" />
+    <Content Include="assets\images\sprite-flags.png" />
+    <Content Include="assets\images\sprite.png" />
+    <Content Include="assets\images\tellamamos.png" />
+    <Content Include="assets\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="assets\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="assets\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="assets\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="assets\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="assets\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="assets\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="assets\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="assets\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="assets\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="assets\images\ui-icons_222222_256x240.png" />
+    <Content Include="assets\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="assets\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="assets\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="assets\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="assets\images\whatsapp.png" />
+    <Content Include="assets\jspres\classie.js" />
+    <Content Include="assets\jspres\main.js" />
+    <Content Include="assets\jspres\modernizr.custom.js" />
+    <Content Include="assets\js\cbpFWTabs.js" />
+    <Content Include="assets\js\ie\backgroundsize.min.htc" />
+    <Content Include="assets\js\ie\html5shiv.js" />
+    <Content Include="assets\js\ie\PIE.htc" />
+    <Content Include="assets\js\ie\respond.min.js" />
+    <Content Include="assets\js\jquery.bxslider.js" />
+    <Content Include="assets\js\jquery.cbpNTAccordion.js" />
+    <Content Include="assets\js\jquery.cbpNTAccordion.min.js" />
+    <Content Include="assets\js\jquery.colorbox.js" />
+    <Content Include="assets\js\jquery.dropotron.min.js" />
+    <Content Include="assets\js\jquery.min.js" />
+    <Content Include="assets\js\jquery.scrollex.min.js" />
+    <Content Include="assets\js\jquery.scrollgress.min.js" />
+    <Content Include="assets\js\jquery.scrolly.min.js" />
+    <Content Include="assets\js\main.js" />
+    <Content Include="assets\js\modernizr.custom.js" />
+    <Content Include="assets\js\skel.min.js" />
+    <Content Include="assets\js\util.js" />
+    <Content Include="bin\AjaxControlToolkit.dll" />
+    <Content Include="bin\mercadopago.dll" />
+    <Content Include="bin\TuSegurodeViaje.WebSite.dll" />
+    <Content Include="bin\TuSegurodeViaje.WebSite.pdb" />
+    <Content Include="buscando.html" />
+    <Content Include="chat.html" />
+    <Content Include="claims.aspx" />
+    <Content Include="claims.html" />
+    <Content Include="coberturas.aspx" />
+    <Content Include="coberturas.html" />
+    <Content Include="compara.aspx" />
+    <Content Include="compara1.html" />
+    <Content Include="comparar-la-libertad.aspx" />
+    <Content Include="comparar-la-libertad.html" />
+    <Content Include="compararsolo.html" />
+    <Content Include="contacto.aspx" />
+    <Content Include="contacto.html" />
+    <Content Include="datos-confirmar.html" />
+    <Content Include="datos.aspx" />
+    <Content Include="datos.html" />
+    <Content Include="dejanostu-cv.aspx" />
+    <Content Include="dejanostu-cv.html" />
+    <Content Include="formas-de-pago-confirmar.html" />
+    <Content Include="formas-de-pago.html" />
+    <Content Include="images\agencias-2.jpg" />
+    <Content Include="images\agencias.jpg" />
+    <Content Include="images\ban\argentina-b.jpg" />
+    <Content Include="images\ban\banderas3.png" />
+    <Content Include="images\base.gif" />
+    <Content Include="images\elegir-mejor-seguro.jpg" />
+    <Content Include="images\elegir-mejor.jpg" />
+    <Content Include="images\europa.jpg" />
+    <Content Include="images\franquicias-2.jpg" />
+    <Content Include="images\franquicias.jpg" />
+    <Content Include="images\garantizado-mejor-precio.png" />
+    <Content Include="images\garantizado-mejor-servicio.png" />
+    <Content Include="images\garantizado-x.png" />
+    <Content Include="images\garantizado-xm.png" />
+    <Content Include="images\icon\deducible.png" />
+    <Content Include="images\logo-40.jpg" />
+    <Content Include="images\logo-40.png" />
+    <Content Include="images\logo-40bl.png" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\logom.png" />
+    <Content Include="images\logos\14.jpg" />
+    <Content Include="images\logos\15.jpg" />
+    <Content Include="images\logos\16.jpg" />
+    <Content Include="images\logos\17.jpg" />
+    <Content Include="images\logos\18.jpg" />
+    <Content Include="images\logos\19.jpg" />
+    <Content Include="images\logos\20.jpg" />
+    <Content Include="images\logos\21.jpg" />
+    <Content Include="images\logos\22.jpg" />
+    <Content Include="images\logos\23.jpg" />
+    <Content Include="images\logos\24.jpg" />
+    <Content Include="images\logos\alliance.jpg" />
+    <Content Include="images\logos\Allianz.gif" />
+    <Content Include="images\logos\allianz.jpg" />
+    <Content Include="images\logos\american.png" />
+    <Content Include="images\logos\asegura.jpg" />
+    <Content Include="images\logos\assist.jpg" />
+    <Content Include="images\logos\assistcard.jpg" />
+    <Content Include="images\logos\assistotuviaje.jpg" />
+    <Content Include="images\logos\assistravel.jpg" />
+    <Content Include="images\logos\AXA.gif" />
+    <Content Include="images\logos\axa.jpg" />
+    <Content Include="images\logos\base.gif" />
+    <Content Include="images\logos\bitcoin.png" />
+    <Content Include="images\logos\cardinalassistance.jpg" />
+    <Content Include="images\logos\card_amex.jpg" />
+    <Content Include="images\logos\card_mc.jpg" />
+    <Content Include="images\logos\card_visa.jpg" />
+    <Content Include="images\logos\coris.jpg" />
+    <Content Include="images\logos\europ.jpg" />
+    <Content Include="images\logos\in-american.jpg" />
+    <Content Include="images\logos\in-argencard.jpg" />
+    <Content Include="images\logos\in-bitcoin.jpg" />
+    <Content Include="images\logos\in-cabal.jpg" />
+    <Content Include="images\logos\in-cencosud.jpg" />
+    <Content Include="images\logos\in-master.jpg" />
+    <Content Include="images\logos\in-mp.jpg" />
+    <Content Include="images\logos\in-naranja.jpg" />
+    <Content Include="images\logos\in-nativa.jpg" />
+    <Content Include="images\logos\in-paypal.jpg" />
+    <Content Include="images\logos\in-shopping.jpg" />
+    <Content Include="images\logos\in-visa.jpg" />
+    <Content Include="images\logos\interassist.jpg" />
+    <Content Include="images\logos\LOGOtsv.jpg" />
+    <Content Include="images\logos\LOGOtsv2.jpg" />
+    <Content Include="images\logos\master.png" />
+    <Content Include="images\logos\mercadopago.png" />
+    <Content Include="images\logos\mok.jpg" />
+    <Content Include="images\logos\naranja.png" />
+    <Content Include="images\logos\omint.jpg" />
+    <Content Include="images\logos\overlay.png" />
+    <Content Include="images\logos\paypal.png" />
+    <Content Include="images\logos\qbe.jpg" />
+    <Content Include="images\logos\tarjeta-celeste.jpg" />
+    <Content Include="images\logos\usa.jpg" />
+    <Content Include="images\logos\visa.png" />
+    <Content Include="images\logos\zurich.jpg" />
+    <Content Include="images\nacional.jpg" />
+    <Content Include="images\nacional2.jpg" />
+    <Content Include="images\nos-1.jpg" />
+    <Content Include="images\overlay.png" />
+    <Content Include="images\pago.png" />
+    <Content Include="images\productos\f.jpg" />
+    <Content Include="images\productos\g.jpg" />
+    <Content Include="images\productos\like2.jpg" />
+    <Content Include="images\productos\p.jpg" />
+    <Content Include="images\productos\s.jpg" />
+    <Content Include="images\resto.jpg" />
+    <Content Include="images\secure-x.png" />
+    <Content Include="images\secure-x2.png" />
+    <Content Include="images\seguro-europa.png" />
+    <Content Include="images\seguro-puertorico.png" />
+    <Content Include="images\seguro-usa.png" />
+    <Content Include="images\slider-antes.jpg" />
+    <Content Include="images\slider.jpg" />
+    <Content Include="images\slider2.jpg" />
+    <Content Include="images\slider3.jpg" />
+    <Content Include="images\slider4-2.jpg" />
+    <Content Include="images\slider4-4.jpg" />
+    <Content Include="images\slider4.jpg" />
+    <Content Include="images\slider5-2.jpg" />
+    <Content Include="images\slider5.jpg" />
+    <Content Include="images\slider6.jpg" />
+    <Content Include="images\slider66.jpg" />
+    <Content Include="images\slider666.jpg" />
+    <Content Include="images\slider7.jpg" />
+    <Content Include="images\sur.jpg" />
+    <Content Include="images\todos.png" />
+    <Content Include="images\tu-seguro-de-viaje-2.jpg" />
+    <Content Include="images\tu-seguro-de-viaje-3.jpg" />
+    <Content Include="images\tu-seguro-de-viaje-4.jpg" />
+    <Content Include="images\tu-seguro-de-viaje-5.jpg" />
+    <Content Include="images\tu-seguro-de-viaje-6.jpg" />
+    <Content Include="images\tu-seguro-de-viaje-7.jpg" />
+    <Content Include="images\tu-seguro-de-viaje-8.jpg" />
+    <Content Include="images\tu-seguro-de-viaje.jpg" />
+    <Content Include="images\tu-seguro.jpg" />
+    <Content Include="images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="images\viajar-protegido-2.jpg" />
+    <Content Include="images\viajar-protegido.jpg" />
+    <Content Include="js\bootstrap-collapse.js" />
+    <Content Include="js\jquery-ui.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\quoteResults.min.js" />
+    <Content Include="js\rainbow.min.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="lateral.html" />
+    <Content Include="mail-afiliado-agente.html" />
+    <Content Include="mail-contacto.html" />
+    <Content Include="mail-representaciones.html" />
+    <Content Include="mail-rrhh.html" />
+    <Content Include="mail-tellamamos.html" />
+    <Content Include="menu.html" />
+    <Content Include="necesito-asistencia.aspx" />
+    <Content Include="necesito-asistencia.html" />
+    <Content Include="nosotros.aspx" />
+    <Content Include="nosotros.html" />
+    <Content Include="oficinas-comerciales.aspx" />
+    <Content Include="oficinas-comerciales.html" />
+    <Content Include="pagar.aspx" />
+    <Content Include="pagar.html" />
+    <Content Include="pago-confirmado.aspx" />
+    <Content Include="pago-confirmado.html" />
+    <Content Include="pago-fallo.aspx" />
+    <Content Include="pago-fallo.html" />
+    <Content Include="pago-pendiente.aspx" />
+    <Content Include="pago-pendiente.html" />
+    <Content Include="pie1.html" />
+    <Content Include="pie2.html" />
+    <Content Include="planes-ver.html" />
+    <Content Include="planes-ver2.html" />
+    <Content Include="planes_ver.aspx" />
+    <Content Include="politicas-de-privacidad.aspx" />
+    <Content Include="politicas-de-privacidad.html" />
+    <Content Include="por-que-viajar-protegido.aspx" />
+    <Content Include="por-que-viajar-protegido.html" />
+    <Content Include="preguntas-frecuentes.aspx" />
+    <Content Include="preguntas-frecuentes.html" />
+    <Content Include="prestadoras.aspx" />
+    <Content Include="prestadoras.html" />
+    <Content Include="prestadorasBORRAR.html" />
+    <Content Include="Reportes\visorcondicionesgrales.aspx" />
+    <Content Include="Reportes\visorpresupuesto.aspx" />
+    <Content Include="Reportes\visorsolicitudes.aspx" />
+    <Content Include="Reportes\visorvoucher.aspx" />
+    <Content Include="representaciones-franquicias-y-auxiliares.aspx" />
+    <Content Include="representaciones-franquicias-y-auxiliares.html" />
+    <Content Include="seguro-de-viaje-obligatorio.aspx" />
+    <Content Include="seguro-de-viaje-obligatorio.html" />
+    <Content Include="servicios-a-empresas.aspx" />
+    <Content Include="servicios-a-empresas.html" />
+    <Content Include="sitemapok.htm" />
+    <Content Include="staff-especialidad.aspx" />
+    <Content Include="staff-especialidad.html" />
+    <Content Include="te-llamamos.aspx" />
+    <Content Include="te-llamamos.html" />
+    <Content Include="terminos-condiciones.html" />
+    <Content Include="testimonios.aspx" />
+    <Content Include="testimonios.html" />
+    <Content Include="tipos-de-viaje.aspx" />
+    <Content Include="tipos-de-viaje.html" />
+    <Content Include="TuSegurodeViaje.WebSite.Publish.xml" />
+    <Content Include="verempresa.html" />
+    <Content Include="planes.aspx" />
+    <Content Include="css\styles.css" />
+    <Content Include="css\styles22.css" />
+    <Content Include="dist\images\bx_loader.gif" />
+    <Content Include="dist\images\controls.png" />
+    <Content Include="dist\jquery.bxslider.css" />
+    <Content Include="dist\jquery.bxslider.js" />
+    <Content Include="dist\jquery.bxslider.min.css" />
+    <Content Include="dist\jquery.bxslider.min.js" />
+    <Content Include="dist\vendor\jquery.easing.1.3.js" />
+    <Content Include="dist\vendor\jquery.fitvids.js" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\back.jpg" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\cace.png" />
+    <Content Include="images\datafiscal.png" />
+    <Content Include="images\formadepago1.jpg" />
+    <Content Include="images\garantizado.png" />
+    <Content Include="images\icon\accidente.png" />
+    <Content Include="images\icon\cancelacion.png" />
+    <Content Include="images\icon\enfermedad.png" />
+    <Content Include="images\icon\equipaje.png" />
+    <Content Include="images\logos\1.jpg" />
+    <Content Include="images\logos\10.jpg" />
+    <Content Include="images\logos\11.jpg" />
+    <Content Include="images\logos\12.jpg" />
+    <Content Include="images\logos\13.jpg" />
+    <Content Include="images\logos\2.jpg" />
+    <Content Include="images\logos\3.jpg" />
+    <Content Include="images\logos\4.jpg" />
+    <Content Include="images\logos\5.jpg" />
+    <Content Include="images\logos\6.jpg" />
+    <Content Include="images\logos\7.jpg" />
+    <Content Include="images\logos\8.jpg" />
+    <Content Include="images\logos\9.jpg" />
+    <Content Include="images\logos\Travelex.gif" />
+    <Content Include="images\banner.jpg" />
+    <Content Include="images\ban\argentina.jpg" />
+    <Content Include="images\Fiji.jpg" />
+    <Content Include="images\nature.jpg" />
+    <Content Include="images\pdp.png" />
+    <Content Include="images\pic01.jpg" />
+    <Content Include="images\pic02.jpg" />
+    <Content Include="images\pic03.jpg" />
+    <Content Include="images\pic04.jpg" />
+    <Content Include="images\pic05.jpg" />
+    <Content Include="images\secure.png" />
+    <Content Include="images\tel.png" />
+    <Content Include="images\tusegurodeviaje.gif" />
+    <Content Include="images\tusegurodeviaje.png" />
+    <Content Include="images\type-bg.jpg" />
+    <Content Include="index.aspx" />
+    <Content Include="js2\bootstrap335.min.js" />
+    <Content Include="js2\jquery113.min.js" />
+    <Content Include="lib\images\bx_loader.gif" />
+    <Content Include="lib\images\controls.png" />
+    <Content Include="lib\jquery.bxslider.css" />
+    <Content Include="lib\jquery.bxslider.js" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="verplan.aspx" />
+    <Content Include="verplan.html" />
+    <Content Include="verproducto.html" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="WebForm1.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="afiliados-agentes-brokers-productores.aspx.cs">
+      <DependentUpon>afiliados-agentes-brokers-productores.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="afiliados-agentes-brokers-productores.aspx.designer.cs">
+      <DependentUpon>afiliados-agentes-brokers-productores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="claims.aspx.cs">
+      <DependentUpon>claims.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="claims.aspx.designer.cs">
+      <DependentUpon>claims.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="coberturas.aspx.cs">
+      <DependentUpon>coberturas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="coberturas.aspx.designer.cs">
+      <DependentUpon>coberturas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="compara.aspx.cs">
+      <DependentUpon>compara.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="compara.aspx.designer.cs">
+      <DependentUpon>compara.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="comparar-la-libertad.aspx.cs">
+      <DependentUpon>comparar-la-libertad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="comparar-la-libertad.aspx.designer.cs">
+      <DependentUpon>comparar-la-libertad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contacto.aspx.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contacto.aspx.designer.cs">
+      <DependentUpon>contacto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="datos.aspx.cs">
+      <DependentUpon>datos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="datos.aspx.designer.cs">
+      <DependentUpon>datos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="dejanostu-cv.aspx.cs">
+      <DependentUpon>dejanostu-cv.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="dejanostu-cv.aspx.designer.cs">
+      <DependentUpon>dejanostu-cv.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="necesito-asistencia.aspx.cs">
+      <DependentUpon>necesito-asistencia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="necesito-asistencia.aspx.designer.cs">
+      <DependentUpon>necesito-asistencia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="nosotros.aspx.cs">
+      <DependentUpon>nosotros.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="nosotros.aspx.designer.cs">
+      <DependentUpon>nosotros.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="oficinas-comerciales.aspx.cs">
+      <DependentUpon>oficinas-comerciales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="oficinas-comerciales.aspx.designer.cs">
+      <DependentUpon>oficinas-comerciales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pagar.aspx.cs">
+      <DependentUpon>pagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pagar.aspx.designer.cs">
+      <DependentUpon>pagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pago-confirmado.aspx.cs">
+      <DependentUpon>pago-confirmado.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pago-confirmado.aspx.designer.cs">
+      <DependentUpon>pago-confirmado.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pago-fallo.aspx.cs">
+      <DependentUpon>pago-fallo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pago-fallo.aspx.designer.cs">
+      <DependentUpon>pago-fallo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pago-pendiente.aspx.cs">
+      <DependentUpon>pago-pendiente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pago-pendiente.aspx.designer.cs">
+      <DependentUpon>pago-pendiente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="planes_ver.aspx.cs">
+      <DependentUpon>planes_ver.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="planes_ver.aspx.designer.cs">
+      <DependentUpon>planes_ver.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="politicas-de-privacidad.aspx.cs">
+      <DependentUpon>politicas-de-privacidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="politicas-de-privacidad.aspx.designer.cs">
+      <DependentUpon>politicas-de-privacidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="por-que-viajar-protegido.aspx.cs">
+      <DependentUpon>por-que-viajar-protegido.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="por-que-viajar-protegido.aspx.designer.cs">
+      <DependentUpon>por-que-viajar-protegido.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="preguntas-frecuentes.aspx.cs">
+      <DependentUpon>preguntas-frecuentes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="preguntas-frecuentes.aspx.designer.cs">
+      <DependentUpon>preguntas-frecuentes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="prestadoras.aspx.cs">
+      <DependentUpon>prestadoras.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="prestadoras.aspx.designer.cs">
+      <DependentUpon>prestadoras.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\coberturas.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>coberturas.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\comparativa.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>comparativa.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\condicionesgrales.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>condicionesgrales.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\presupuesto1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>presupuesto1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\DataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\DataSetCoberturasporProducto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetCoberturasporProducto.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\solicituddevoucher.cs">
+      <DependentUpon>solicituddevoucher.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reportes\DataSetComparativa.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetComparativa.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\DataSetVoucher.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetVoucher.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\pagoconfirmado.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>pagoconfirmado.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\visorcondicionesgrales.aspx.cs">
+      <DependentUpon>visorcondicionesgrales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\visorcondicionesgrales.aspx.designer.cs">
+      <DependentUpon>visorcondicionesgrales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\visorpresupuesto.aspx.cs">
+      <DependentUpon>visorpresupuesto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\visorpresupuesto.aspx.designer.cs">
+      <DependentUpon>visorpresupuesto.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\visorsolicitudes.aspx.cs">
+      <DependentUpon>visorsolicitudes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\visorsolicitudes.aspx.designer.cs">
+      <DependentUpon>visorsolicitudes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\visorvoucher.aspx.cs">
+      <DependentUpon>visorvoucher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\visorvoucher.aspx.designer.cs">
+      <DependentUpon>visorvoucher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\voucher.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>voucher.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reportes\voucher1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>voucher1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="representaciones-franquicias-y-auxiliares.aspx.cs">
+      <DependentUpon>representaciones-franquicias-y-auxiliares.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="representaciones-franquicias-y-auxiliares.aspx.designer.cs">
+      <DependentUpon>representaciones-franquicias-y-auxiliares.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="seguro-de-viaje-obligatorio.aspx.cs">
+      <DependentUpon>seguro-de-viaje-obligatorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="seguro-de-viaje-obligatorio.aspx.designer.cs">
+      <DependentUpon>seguro-de-viaje-obligatorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="servicios-a-empresas.aspx.cs">
+      <DependentUpon>servicios-a-empresas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="servicios-a-empresas.aspx.designer.cs">
+      <DependentUpon>servicios-a-empresas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="staff-especialidad.aspx.cs">
+      <DependentUpon>staff-especialidad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="staff-especialidad.aspx.designer.cs">
+      <DependentUpon>staff-especialidad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="te-llamamos.aspx.cs">
+      <DependentUpon>te-llamamos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="te-llamamos.aspx.designer.cs">
+      <DependentUpon>te-llamamos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="testimonios.aspx.cs">
+      <DependentUpon>testimonios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="testimonios.aspx.designer.cs">
+      <DependentUpon>testimonios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tipos-de-viaje.aspx.cs">
+      <DependentUpon>tipos-de-viaje.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tipos-de-viaje.aspx.designer.cs">
+      <DependentUpon>tipos-de-viaje.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="varios\conversiondemonedas.cs" />
+    <Compile Include="varios\mensaje.cs" />
+    <Compile Include="planes.aspx.cs">
+      <DependentUpon>planes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="planes.aspx.designer.cs">
+      <DependentUpon>planes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="verplan.aspx.cs">
+      <DependentUpon>verplan.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="verplan.aspx.designer.cs">
+      <DependentUpon>verplan.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Reportes\TempReports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\CapaAccesoDatos\TuSegurodeViaje.AccesoDatos\TuSegurodeViaje.AccesoDatos.csproj">
+      <Project>{F38005EC-3797-4C17-A84E-CC56FD04A38A}</Project>
+      <Name>TuSegurodeViaje.AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\CapaNegocio\TuSegurodeViaje.LogicadeNegocio\TuSegurodeViaje.LogicadeNegocio.csproj">
+      <Project>{1CE5D224-883D-4ADF-9083-27DD8B2F9070}</Project>
+      <Name>TuSegurodeViaje.LogicadeNegocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="assets\csspres\style1.css.map" />
+    <None Include="assets\csspres\style2.css.map" />
+    <None Include="assets\css\.DS_Store" />
+    <None Include="assets\css\index.php" />
+    <None Include="assets\fonts\bpicons\bpicons.eot" />
+    <None Include="assets\fonts\bpicons\bpicons.ttf" />
+    <None Include="assets\fonts\bpicons\bpicons.woff" />
+    <None Include="assets\fonts\fontawesome-webfont.eot" />
+    <None Include="assets\fonts\fontawesome-webfont.ttf" />
+    <None Include="assets\fonts\fontawesome-webfont.woff" />
+    <None Include="assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="assets\fonts\FontAwesome.otf" />
+    <None Include="assets\fonts\fontstsv\icomoontsv.eot" />
+    <None Include="assets\fonts\fontstsv\icomoontsv.ttf" />
+    <None Include="assets\fonts\fontstsv\icomoontsv.woff" />
+    <None Include="assets\fonts\icomoon\.DS_Store" />
+    <None Include="assets\fonts\icomoon\icomoon.eot" />
+    <None Include="assets\fonts\icomoon\icomoon.ttf" />
+    <None Include="assets\fonts\icomoon\icomoon.woff" />
+    <None Include="assets\fonts\icomoon_arrows\.DS_Store" />
+    <None Include="assets\fonts\icomoon_arrows\icomoon.eot" />
+    <None Include="assets\fonts\icomoon_arrows\icomoon.ttf" />
+    <None Include="assets\fonts\icomoon_arrows\icomoon.woff" />
+    <None Include="assets\js\.DS_Store" />
+    <None Include="assets\js\.jscsrc" />
+    <None Include="assets\js\.jshintrc" />
+    <None Include="assets\sass\ie8.scss" />
+    <None Include="assets\sass\libs\_functions.scss" />
+    <None Include="assets\sass\libs\_mixins.scss" />
+    <None Include="assets\sass\libs\_skel.scss" />
+    <None Include="assets\sass\libs\_vars.scss" />
+    <None Include="assets\sass\main.scss" />
+    <None Include="dist\LICENSE.md" />
+    <None Include="dist\README.md" />
+    <None Include="politicas-de-privacidad-tsv.pdf" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reportes\CondicionesGenerales\CCGG Assist Card - Oct 2015.pdf" />
+    <None Include="Reportes\CondicionesGenerales\CCGG Assistravel - Oct 2015.pdf" />
+    <None Include="Reportes\CondicionesGenerales\CCGG Cardinal Assistance - Oct 2015.pdf" />
+    <None Include="Reportes\CondicionesGenerales\CCGG Continental Assist Mexico.pdf" />
+    <None Include="Reportes\CondicionesGenerales\CCGG Continental Assist.pdf" />
+    <None Include="Reportes\CondicionesGenerales\CCGG Coris - Oct 2015.pdf" />
+    <None Include="Reportes\CondicionesGenerales\CCGG Europ Assistance - Oct 2015.pdf" />
+    <None Include="Reportes\CondicionesGenerales\CCGG Omint Assistance - Oct 2015.pdf" />
+    <None Include="Reportes\CondicionesGenerales\CCGG QBE Travel Insurance.pdf" />
+    <None Include="Reportes\CondicionesGenerales\CCGG Tarjeta Celeste - Oct 2015.pdf" />
+    <None Include="Reportes\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reportes\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\DataSetCoberturasporProducto.xsc">
+      <DependentUpon>DataSetCoberturasporProducto.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\DataSetCoberturasporProducto.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetCoberturasporProducto.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reportes\DataSetCoberturasporProducto.xss">
+      <DependentUpon>DataSetCoberturasporProducto.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\DataSetComparativa.xsc">
+      <DependentUpon>DataSetComparativa.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\DataSetComparativa.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetComparativa.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reportes\DataSetComparativa.xss">
+      <DependentUpon>DataSetComparativa.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\DataSetVoucher.xsc">
+      <DependentUpon>DataSetVoucher.xsd</DependentUpon>
+    </None>
+    <None Include="Reportes\DataSetVoucher.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetVoucher.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reportes\DataSetVoucher.xss">
+      <DependentUpon>DataSetVoucher.xsd</DependentUpon>
+    </None>
+    <None Include="terminos-y-condiciones-tsv.pdf" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\coberturas.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>coberturas.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\comparativa.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>comparativa.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\condicionesgrales.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>condicionesgrales.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\presupuesto1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>presupuesto1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\solicituddevoucher.resx">
+      <DependentUpon>solicituddevoucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\solicituddevoucher.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>solicituddevoucher.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\pagoconfirmado.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>pagoconfirmado.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\voucher.resx">
+      <DependentUpon>voucher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\voucher.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>voucher.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reportes\voucher1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>voucher1.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50814</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

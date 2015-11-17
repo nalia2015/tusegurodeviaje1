@@ -1,0 +1,7 @@
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaNegocio\TuSegurodeViaje.LogicadeNegocio\bin\Debug\TuSegurodeViaje.LogicadeNegocio.dll
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaNegocio\TuSegurodeViaje.LogicadeNegocio\bin\Debug\TuSegurodeViaje.LogicadeNegocio.pdb
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaNegocio\TuSegurodeViaje.LogicadeNegocio\bin\Debug\TuSegurodeViaje.AccesoDatos.dll
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaNegocio\TuSegurodeViaje.LogicadeNegocio\bin\Debug\TuSegurodeViaje.AccesoDatos.pdb
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaNegocio\TuSegurodeViaje.LogicadeNegocio\obj\Debug\TuSegurodeViaje.LogicadeNegocio.csprojResolveAssemblyReference.cache
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaNegocio\TuSegurodeViaje.LogicadeNegocio\obj\Debug\TuSegurodeViaje.LogicadeNegocio.dll
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaNegocio\TuSegurodeViaje.LogicadeNegocio\obj\Debug\TuSegurodeViaje.LogicadeNegocio.pdb

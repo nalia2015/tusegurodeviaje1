@@ -1,0 +1,130 @@
+<!-- inicio de float-->
+<div class=" cotizadorsolo ">
+    
+<!-- inicio recategorizacion-->
+<form class="contact_formdos" action="#" method="post" name="contact_formdos">
+        <div class="inner55miosolo " >
+
+           <div class="innerbox flexbox">
+            <div class="row 50%">
+                    <!-- STARTS destination group-->
+                    <div class="">
+                    <div class="controlsmiosolo">
+                    <select class="" name="quote[destination]" data-placeholder="ORIGEN: " tabindex="1" required>
+                    <option selected="" value="" disabled="disabled">ORIGEN: </option>
+                    <option value="1">ARGENTINA</option>
+                    <option value="2">BRASIL</option>
+                    <option value="3">COLOMBIA</option>
+                    <option value="4">EEUU</option>
+                    </select></div>
+                    </div>
+
+
+
+                    <div class="">
+                    <div class="controlsmiosolo">
+                    <select class="" name="quote[destination]" data-placeholder="DESTINO: " tabindex="2" required>
+                    <option value="" disabled="disabled" selected>DESTINO: </option>            
+                    <option value="1">AMERICA DEL NORTE</option>
+                    <option value="2">AMERICA CENTRAL</option>
+                    <option value="3">AMERICA DEL SUR</option>
+                    <option value="4">EUROPA</option>
+                    <option value="5">NACIONAL</option>
+                    <option value="6">RESTO DEL MUNDO</option>
+                    </select></div>
+                    </div>
+
+
+                    <!-- ENDS destination group-->
+                    <div class="departure-date22">
+                       <div class="controlsmiosolo ">
+                        <script>
+                        $(function() {
+                        $.datepicker.regional['es'] = 
+                                                         {
+                                                         closeText: 'Cerrar', 
+                                                         prevText: 'Previo', 
+                                                         nextText: 'Próximo',
+                                                         
+                                                         monthNames: ['Enero','Febrero','Marzo','Abril','Mayo','Junio',
+                                                         'Julio','Agosto','Septiembre','Octubre','Noviembre','Diciembre'],
+                                                         monthNamesShort: ['Ene','Feb','Mar','Abr','May','Jun',
+                                                         'Jul','Ago','Sep','Oct','Nov','Dic'],
+                                                         monthStatus: 'Ver otro mes', yearStatus: 'Ver otro año',
+                                                         dayNames: ['Domingo','Lunes','Martes','Miércoles','Jueves','Viernes','Sábado'],
+                                                         dayNamesShort: ['Dom','Lun','Mar','Mie','Jue','Vie','Sáb'],
+                                                         dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sa'],
+                                                         dateFormat: 'dd/mm/yy', firstDay: 0, 
+                                                         initStatus: 'Selecciona la fecha', isRTL: false};
+                                                        $.datepicker.setDefaults($.datepicker.regional['es']);
+                                $( "#datepicker" ).datepicker({
+                                    minDate:0,
+                                    defaultDate: "1D",
+                                    changeMonth: true,
+                                    numberOfMonths: 2,
+                                    onClose: function( selectedDate ) 
+                                    {
+                                        $( "#datepicker2" ).datepicker("option", "minDate", selectedDate);
+                                    }
+                                });
+                                $( "#datepicker2" ).datepicker({
+                                    defaultDate: "1D",
+                                    changeMonth: true,
+                                    numberOfMonths: 2,
+                                    onClose: function( selectedDate ) {
+                                        $( "#datepicker" ).datepicker( "option", "maxDate", selectedDate );
+                                    }
+                                });
+                            });
+                    </script>
+                         <input name="" class="" placeholder="SALIDA:" type="text" tabindex="3" id="datepicker" autocomplete="off" required>
+                        </div>
+                       </div>
+                    <!-- ENDs Departure date group-->
+                    
+                    <div class="return-date22">
+                    <div class="controlsmiosolo"><input name="quote[returnDate]" class="destinop" placeholder="REGRESO:" maxlength="8" size="7" type="text" tabindex="4" id="datepicker2" autocomplete="off" required></div> 
+                    </div>
+                    
+
+                        <div class="return-date">
+                        <div class="controlsmiosolo"><input name="" class="" placeholder="EDAD" type="number" tabindex="6" id="p1" min="0" max="99" autocomplete="off" required></div>
+                        </div>
+
+                        <div class="return-date">
+                        <div class="controlsmiosolo"><input name="quote[returnDate]" class="" placeholder="EDAD"  type="number" tabindex="7" id="p2" min="0" max="99" autocomplete="off"></div>
+                        </div>
+
+                        <div class="return-date22">
+                        <div class="controlsmiosolo"><input name="quote[returnDate]" class="" placeholder="EDAD"  type="number" tabindex="8" id="p3" min="0" max="99" autocomplete="off"></div>
+                        </div>
+                        <div class="return-date22">
+                        <div class="controlsmiosolo"><input name="quote[returnDate]" class="" placeholder="EDAD"  type="number" tabindex="9" id="p4" min="0" max="99" autocomplete="off"></div>
+                        </div>
+                        <div class="return-date22">
+                        <div class="controlsmiosolo"><input name="quote[returnDate]" class=" " placeholder="EDAD" type="number" tabindex="10" id="p5" min="0" max="99" autocomplete="off"></div>
+                        </div>
+                        <div class="return-date22">
+                        <div class="controlsmiosolo"><input name="quote[returnDate]" class="" placeholder="EDAD"  type="number" tabindex="11" id="p6" min="0" max="99" autocomplete="off"></div>
+                        </div>
+                        <div class="return-date22">
+                        <div class="controlsmiosolo"><input name="quote[returnDate]" class="descuentosolo" placeholder="COD. DESCUENTO" type="text" tabindex="11" id="p6" style="background-color:#FFE549" title="Si posee un CODIGO DE DESCUENTO, ingréselo aquí" autocomplete="off"></div>
+                        </div>
+                        <div class="return-date22">
+                        <div class="controlsmiosolo"><input name="quote[returnDate]" class="" placeholder="TU E-MAIL" type="email" tabindex="12" id="p6"  title="Ingrese E-mail" autocomplete="off" required></div>
+                        </div>
+                        <div class="return-date22"><button class="button2 specialg" type="submit">COTIZAR <i class="fa fa-chevron-right fa-lg">&nbsp;</i></button>
+                        </div>
+
+                        <!-- ENDS Return date group-->
+
+                  
+                </div>
+            </div>
+        </div>
+<!--fin recotizacion-->
+</form>
+
+</div>
+
+<!--finde float   -->     

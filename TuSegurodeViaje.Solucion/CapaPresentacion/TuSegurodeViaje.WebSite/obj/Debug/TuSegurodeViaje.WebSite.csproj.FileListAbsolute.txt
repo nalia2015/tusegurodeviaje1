@@ -1,0 +1,13 @@
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\bin\TuSegurodeViaje.WebSite.dll
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\bin\TuSegurodeViaje.WebSite.pdb
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\bin\TuSegurodeViaje.AccesoDatos.dll
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\bin\TuSegurodeViaje.LogicadeNegocio.dll
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\bin\TuSegurodeViaje.AccesoDatos.pdb
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\bin\TuSegurodeViaje.LogicadeNegocio.pdb
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\obj\Debug\TuSegurodeViaje.WebSite.csprojResolveAssemblyReference.cache
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\obj\Debug\TuSegurodeViaje.WebSite.Properties.Resources.resources
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\obj\Debug\TuSegurodeViaje.WebSite.Reportes.solicituddevoucher.resources
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\obj\Debug\TuSegurodeViaje.WebSite.Reportes.voucher.resources
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\obj\Debug\TuSegurodeViaje.WebSite.csproj.GenerateResource.Cache
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\obj\Debug\TuSegurodeViaje.WebSite.dll
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaPresentacion\TuSegurodeViaje.WebSite\obj\Debug\TuSegurodeViaje.WebSite.pdb

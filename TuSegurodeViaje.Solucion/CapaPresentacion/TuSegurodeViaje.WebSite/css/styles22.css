@@ -1,0 +1,113 @@
+
+
+/** EXAMPLES
+================================================**/
+
+.example-item h1 {
+	font-size: 2.5em;
+	margin-bottom: 30px;
+}
+
+.code-switch {
+	margin-top: 20px;
+	height: 25px;
+}
+
+.code-switch a {
+	display: block;
+	width: 70px;
+	color: #fff;
+	text-align: center;
+	float: left;
+	background: #989898;
+	padding: 5px 0;
+	font-family: "Consolas", "Monaco", "Courier", serif;
+	font-size: .875em;
+}
+
+.code-switch a.active {
+	background: #5280dd;
+}
+
+.code-switch .js {
+	-moz-border-radius: 5px 0 0 5px;
+	-webkit-border-radius: 5px 0 0 5px;
+	border-radius: 5px 0 0 5px;
+}
+
+.code-switch .html {
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	border-radius: 0 5px 5px 0;
+}
+
+.code-wrap .code {
+	display: none;
+}
+
+.code-wrap .code.active {
+	display: block;
+}
+
+.example-item .examples-list {
+	margin-top: 60px;
+}
+
+.examples-list ol {
+	margin-left: 30px;
+}
+
+.examples-list ol li {
+	list-style: decimal;
+	color: #666;
+	margin-bottom: 8px;
+}
+
+.example-item ol li {
+	font-size: .875em;
+}
+
+.example-item .slider a {
+	line-height: 1.5em;
+}
+
+.example-item #bx-pager {
+	text-align: center;
+	margin-top: -30px;
+}
+
+.example-item #bx-pager a {
+	margin: 0 3px;
+}
+
+.example-item #bx-pager a img {
+	padding: 3px;
+	border: solid #ccc 1px;
+}
+
+.example-item #bx-pager a:hover img,
+.example-item #bx-pager a.active img {
+	border: solid #5280DD 1px;
+}
+
+/** CAROUSEL DEMYSTIFIED
+================================================**/
+
+.carousel-demystified aside { display: none; }
+.carousel-demystified #primary { margin: 0;}
+
+.carousel-demystified h2 {
+	font-size: 1.75em;
+	margin-bottom: 30px;
+}
+
+.carousel-demystified ol li {
+	list-style: decimal;
+	margin: 0 0 5px 50px;
+	line-height: 1.35em;
+	color: #555;
+}
+
+
+
+

@@ -1,0 +1,5 @@
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaAccesoDatos\TuSegurodeViaje.AccesoDatos\bin\Debug\TuSegurodeViaje.AccesoDatos.dll.config
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaAccesoDatos\TuSegurodeViaje.AccesoDatos\bin\Debug\TuSegurodeViaje.AccesoDatos.dll
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaAccesoDatos\TuSegurodeViaje.AccesoDatos\bin\Debug\TuSegurodeViaje.AccesoDatos.pdb
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaAccesoDatos\TuSegurodeViaje.AccesoDatos\obj\Debug\TuSegurodeViaje.AccesoDatos.dll
+C:\Users\Natalia\Documents\Visual Studio 2010\Projects\TuSegurodeViaje\TuSegurodeViaje.Solucion\CapaAccesoDatos\TuSegurodeViaje.AccesoDatos\obj\Debug\TuSegurodeViaje.AccesoDatos.pdb

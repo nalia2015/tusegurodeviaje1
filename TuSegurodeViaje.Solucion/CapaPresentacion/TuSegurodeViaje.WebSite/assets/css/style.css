@@ -1,0 +1,1836 @@
+#loading
+{position: absolute;
+width: 100%;
+text-align: center;
+top: 40%;
+}
+html {overflow-y: scroll;} 
+body {
+overflow-x: initial;
+}
+.barra-telefonos p{color: #666666;
+font-size: 17px;
+font-weight: bold;
+text-align: center;
+border-top: 1px solid #e5e5e5;
+border-bottom: 1px solid #e5e5e5; 
+margin-bottom: 1px;}
+.telefonos{padding:20px;}
+
+
+.fr{float:right;}
+.atv_comparador .oferta
+{
+font-size: 10px;
+text-transform: uppercase;
+width: 28px;
+text-align: center;
+margin: 0;
+font-weight: bold;
+margin-right: 10px;
+width:38px;
+height:38px;
+background: url("https://sistema.aseguratuviaje.com/App_Themes/img/discount_bg.png") no-repeat center center;
+}
+/* Override */
+[class*='col-'] {
+	padding-right: 0px;
+}
+/*BORRAR ANTES DE COMITEAR*/
+header.atv_comparador_head
+{
+width:100%;
+height:95px;
+}
+/* 1 Cotizador */
+/* 1-a General*/
+.fl{
+float:left;
+}
+.fr
+{
+float:right;
+}
+.fn
+{
+float:none;
+}
+.atv_comparador h4, .atv_comparador h3, .atv_comparador h2, .atv_comparador h1, .atv_comparador padding
+{
+margin:0;
+font-weight:300;
+}
+.atv_comparador ul li, ul
+{
+margin:0;
+padding:0;
+list-style:none;
+}
+.atv_comparador h1
+{
+font-size:1.5em;
+font-weight:600;
+}
+.atv_comparador h3
+{
+font-size:1.5em;
+}
+.atv_comparador h4
+{
+font-size:0.7em;
+}
+.atv_comparador figure
+{
+margin:0;
+}
+.atv_comparador a{
+text-decoration:none;
+color:inherit;
+}
+.atv_comparador figure img
+{
+width:100%;
+}
+
+/*---------------------------------------------------------------------------------*/
+/* 1-b Colores cotizador*/
+
+.atv_comparador .grey_dark
+{
+color:#333333;
+}
+.atv_comparador .med_dark
+{
+color#666666
+}
+.atv_comparador .lite_dark
+{
+color:#CCCCCC;
+}
+
+.atv_comparador .detail ul{
+padding-top:40px;
+}
+.atv_comparador .detail section
+{
+border-top:1px solid #e5e5e5;
+padding-top:20px;
+}
+.atv_comparador .detail .button{
+width:143px;
+}
+.atv_comparador .detail .logo
+{
+padding-right:15px;
+}
+.atv_comparador .detail .plan_title
+{
+padding-top:28px;
+}
+.atv_comparador .detail ul li
+{
+display: block;
+clear: both;
+height: 28px;
+padding: 5px;
+}
+.atv_comparador .detail ul li:nth-child(odd)
+{
+background:#f2f2f2;
+}
+
+.atv_comparador  .comparation h1{
+font-size: 2em;
+font-weight: bold;
+}
+.atv_comparador  .comparation h3{
+font-size: 1em;
+}
+.atv_comparador  .comparation .item_head
+{
+height: auto;
+margin: 0 0px;
+border-right: 1px solid #ccc;
+}
+.atv_comparador  .comparation .item_head div{
+background: #e5e5e5;
+margin: 0px 3px;
+width: 98%;
+height: auto;
+text-align:center;
+}
+.atv_comparador  .comparation .item_head div h2{
+font-size: 1em;
+color: #999999;
+font-weight: bold;
+margin: 5px 0;
+text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+}
+.atv_comparador  .comparation .item_head div h4{
+font-weight: bold;
+font-size: 1.5em;
+text-shadow: 0 1px 0 rgba(255,255,255,0.9);
+}
+.atv_comparador .comparation .item_head div figure img
+{
+width:auto;
+}
+.atv_comparador .comparation .detail_compration_list
+{
+height:auto;
+border-bottom:1px solid #e5e5e5;
+}
+.atv_comparador .comparation .detail_compration_list div:nth-child(1)
+{
+background: #f2f2f2 url("https://sistema.aseguratuviaje.com/App_Themes/img/drop_down_arrow.png") no-repeat center right;
+padding-left: 10px;
+text-shadow: 0 1px 0 rgba(255,255,255,1);
+
+}
+.atv_comparador .comparation .detail_compration_list .price
+{
+text-align:center
+}
+.atv_comparador .comparation .detail_compration_list  .item_detail_description
+{
+height:0;
+background:#555555;
+clear:both;
+position:relative;
+overflow:hidden;
+
+}
+.atv_comparador .comparation .detail_compration_list  .item_detail_description p
+{
+margin:0;
+color:white;
+text-shadow:0 -1px 0 rgba(0,0,0,0.9);
+padding:5px 20px 0 20px;
+}
+.atv_comparador .comparation .detail_compration_list  .item_detail_description p:first-child
+{padding-top:20px;}
+.atv_comparador .comparation .detail_compration_list  .item_detail_description.open{
+
+    transition:height 1s ease-out;
+    height:400px;
+    overflow:hidden;
+
+}
+.atv_comparador .comparation .detail_compration_list  .item_detail_description.close{
+
+    transition:height 1s ease-out;
+    height:0;
+    overflow:hidden;
+}
+.atv_comparador .comparation .detail_compration_list  .item_detail_description div{
+position: absolute;
+width: 13px;
+height: 13px;
+top: 5px;
+right: 5px;
+display: block;
+background: transparent;
+padding-left: 0;
+cursor: pointer;
+}
+/* 1-c Filtros*/
+.atv_comparador .atv_comparador_filter
+{
+padding:20px;
+}
+.atv_comparador .atv_comparador_filter ul li a
+{
+cursor:pointer;
+}
+.atv_comparador .atv_comparador_filter ul li p, .atv_comparador .atv_comparador_filter ul li a{
+color:#666666;
+margin:0;
+text-shadow:0 1px 0 rgba(255,255,255,0.5);
+font-size: 11px;
+}
+.atv_comparador .atv_comparador_filter ul li.filter_title
+{
+background: #f2f2f2;
+padding: 4px 10px;
+}
+.atv_comparador .atv_comparador_filter ul li.filter_item
+{
+padding-left:20px;
+}
+.atv_comparador .atv_comparador_filter ul li.filter_item:hover 
+{
+background:#ff6a17;
+}
+.atv_comparador .atv_comparador_filter ul li.filter_item:hover a
+{
+color:white;
+text-shadow:0 -1px 0 rgba(0,0,0,0.3);
+}
+.atv_comparador .atv_comparador_filter ul li select{
+width:100%;
+border-radius:4px;
+border:1px solid #cccccc;
+padding:3px;
+height:30px;
+font-size:11px;
+color:#666666;
+}
+.atv_comparador .atv_comparador_filter ul li{
+padding:4px 4px;
+border-bottom:1px solid #e5e5e5;
+display:block;  
+
+}
+
+
+/*-------------------------------------------------------------------------------------------*/
+/*Listado Item*/
+.atv_comparador .atv_comparador_item_description
+{
+padding:10px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+}
+.atv_comparador_item_description div:nth-child(2) {
+padding: 2px 0 0 0;
+  border-left: 1px dashed #cccccc;
+  border-right: 1px dashed #cccccc;
+  text-transform:uppercase;
+}
+
+.dyas_left 
+{
+text-align:center;
+text-transform:uppercase;
+font-size:11px;
+color:#2f1494;
+padding:5px;
+border:1px solid #2f1494;
+}
+
+.atv_comparador_item_description div a:nth-child(2)
+{font-weight:bold;}
+.atv_comparador .atv_comparador_item_description h4{
+margin-top:5px;
+margin-bottom:5px;
+}
+
+.atv_comparador .item_list_actions a{
+  font-size: 9px;
+  line-height: 11px;
+  border-radius: 4px;
+  margin: 7px 14px 0 0px;
+  width: 50px;
+  padding-left: 15px;
+  text-align: left;
+  background-size: 22%;
+  float: none;
+}
+.atv_comparador  .readmore_btn
+{
+background: url('https://sistema.aseguratuviaje.com/App_Themes/img/readmore_icon.png') no-repeat top left;
+font-size:10px;
+}
+.atv_comparador  .pdf_btn
+{
+background: url('https://sistema.aseguratuviaje.com/App_Themes/img/pdf_icon.png') no-repeat top left;
+margin-right:7px;
+font-size:10px;
+  background-size: 42% !important;
+}
+.atv_comparador .item_list_actions
+{
+
+border:none;
+}
+.atv_comparador .button.hidden
+{
+display:none;
+width: 80%;
+float: left;
+}
+.atv_comparador .no_compare_button
+{    display: block;
+    width: 19%;
+    float: left;
+    text-align: center;
+    padding: 8px 0px;
+    background: none repeat scroll 0% 0% #333;
+    margin: 5px 0px;
+    font-size: 1.2em;
+    color: #FFF;
+	margin-left:1%;
+}
+.atv_comparador .button
+{
+clear: both;
+display: block;
+width: 100%;
+padding: 10px 28px;
+text-align: center;
+color: white;
+margin: 5px 0 0 0;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+font-size: 19px;
+}
+.atv_comparador .item_head .button {
+display: block;
+width: 100%;
+padding: 10px;
+text-align: center;
+color: white;
+margin: 5px 0 0 0;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+font-size: 1.9em;
+}
+.atv_comparador .buy_section {
+position: relative;
+padding-top: 14px;
+}
+
+.atv_comparador .price_container {
+padding: 0 9px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0;
+  position: relative;
+  width: 28%;
+  margin-top: 10px;
+  min-width: 88px;
+}
+
+.atv_comparador .price_container .second_price {
+font-size: 17px;
+color:#666666;
+line-height:normal;
+}
+
+.atv_comparador .buy_container {
+margin-left: 33px;
+/* width: auto; */
+}
+
+.atv_comparador .buy_section .oferta
+{
+font-size: 13px;
+text-transform: uppercase;
+text-align: center;
+margin: 0;
+font-weight: bold;
+width: 62px;
+height: 62px;
+background: url("https://sistema.aseguratuviaje.com/App_Themes/img/discount_bg.png") no-repeat center center;
+position: absolute;
+right: -8px;
+top: -5px;
+color: white;
+line-height: 15px;
+padding: 16px 5px 0 5px;
+z-index: 1;
+}
+.atv_comparador .buy_section input[type="checkbox"]
+{
+width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+}
+.atv_comparador .buy_section h2{
+font-size: 10px;
+line-height: normal;
+}
+.atv_comparador .orange_color
+{
+color:#ff6a17;
+}
+.atv_comparador .orange_btn
+{
+background: #ff6d00 /*url("https://sistema.aseguratuviaje.com/App_Themes/img/go.png") no-repeat 125px 14px*/;
+}
+.atv_comparador .purple_btn
+{
+background:#2f1494;
+}
+.atv_comparador .price_container .infoadicional
+{font-size: 0.7em;
+color: #666666;
+margin: 0;
+text-align:left;}
+/*Conerturas*/
+.atv_comparador .cover_icons
+{
+margin-top:15px;
+}
+.atv_comparador .cover_icons div {
+  padding-top: 35px;
+ 
+  margin: 0 2px;
+  padding: 35px 2px 0 2px;
+  
+   max-width: 15%;
+   min-width: 10%;
+   /*border-right: 1px solid #eee;*/
+}
+
+.atv_comparador .cover_icons img {
+  
+  display: block;
+  width: 100px;
+  
+}
+
+
+
+
+.column-name .cover_icons div p{
+  font-size: 0.8em;
+  color: #000000;
+  margin: 0;
+  line-height: normal;
+  text-align: center;
+  max-width: 122px;
+  text-transform:uppercase;
+}
+.column-name .cover_icons div h5{
+  font-size: 0.8em;
+  color: #000000;
+  margin: 0;
+  font-weight: normal;
+  text-align: center;
+}
+.column-name .icon_medic
+{
+background:url("https://sistema.aseguratuviaje.com/App_Themes/img/icon_medical_assistance.png") no-repeat top center;
+
+
+}
+
+
+.atv_comparador .icon_accident
+{
+background:url("https://sistema.aseguratuviaje.com/App_Themes/img/icon_accident_assistance.png") no-repeat top center;
+
+
+}
+.atv_comparador .icon_bag
+{
+background:url("https://sistema.aseguratuviaje.com/App_Themes/img/icon_bag_assistance.png") no-repeat top center;
+
+
+}
+.cover_icons li{
+display:inline-block;
+}
+
+.atv_comparador .fixed_bottom
+{
+position: fixed;
+left: 0;
+right: 0;
+bottom: 0;
+height: 60px;
+background: #cccccc;
+border-top: 1px solid #999999;
+z-index: 2000;
+box-shadow: 0px -1px 23px rgba(0,0,0,0.4);
+display:none;
+}
+.atv_comparador .fixed_bottom button.button
+{
+width:170px;
+border:none;
+text-transform:uppercase;
+}
+.atv_comparador .fixed_bottom div{
+padding: 10px 56px 0 29px;
+}
+.atv_comparador .fixed_bottom div p{
+color: #604a90;
+  font-size: 1.5em;
+  float: left;
+  display: inline-block;
+  margin-left: 9px;
+  margin-top: 10px;
+}
+/*-------------------------------------------------------------------------------------------*/
+.atv_comparador{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+}
+
+.atv_comparador .atv_recotizar{
+	background-color: #51555a;
+	font-size: 18px;
+	color: #fff;
+	text-align: right;
+	text-transform: uppercase;
+}
+.atv_comparador .atv_recotizar .atv_comparador_row.grid a
+{
+padding: 6px 9px;
+background: #444;
+width: 187px;
+float: right;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.9);
+}
+.atv_comparador .atv_recotizar .atv_comparador_row.grid p{
+text-align:left;
+margin:0;
+padding: 6px 9px 6px 0;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.9);
+}
+.atv_comparador .atv_recotizar .atv_recotizar_form{
+	text-transform: none;
+	display:none;
+	height:0;
+	overflow:hidden;
+	background:#444444;
+}
+.atv_comparador .atv_recotizar .atv_recotizar_form form div button {
+width: 100%;
+background: #e75f0c;
+color: white;
+text-transform: uppercase;
+text-align: center;
+padding: 20px;
+border: none;
+font-size: 1.5em;
+display: block;
+height: auto;
+}
+
+@keyframes drop-down_form {
+from{height:0;}
+to{height:210px;}
+}
+@-webkit-keyframes drop-down_form {
+from{height:0;}
+to{height:210px;}
+}
+@-moz-keyframes drop-down_form {
+from{height:0;}
+to{height:210px;}
+}
+@-o-keyframes drop-down_form {
+from{height:0;}
+to{height:210px;}
+}
+
+
+@keyframes drop-down_form_mob {
+from{height:0;}
+to{height:725px;}
+}
+@-webkit-keyframes drop-down_form_mob {
+from{height:0;}
+to{height:725px;}
+}
+@-moz-keyframes drop-down_form_mob {
+from{height:0;}
+to{height:725px;}
+}
+@-o-keyframes drop-down_form_mob {
+from{height:0;}
+to{height:725px;}
+}
+.atv_comparador .atv_recotizar .atv_recotizar_form.hide_form
+{
+-webkit-animation: drop-down_form 1s reverse forwards ; /* Chrome, Safari, Opera */
+-moz-animation: drop-down_form 1s reverse forwards ; /* Chrome, Safari, Opera */
+-o-animation: drop-down_form 1s reverse forwards; /* Chrome, Safari, Opera */
+animation: drop-down_form 1s reverse forwards; /* Chrome, Safari, Opera */
+}
+.atv_comparador .atv_recotizar .atv_recotizar_form.show_form_mobile
+{
+display:block;
+-webkit-animation: drop-down_form_mob 1s forwards; /* Chrome, Safari, Opera */
+-moz-animation: drop-down_form_mob 1s forwards; /* Chrome, Safari, Opera */
+-o-animation: drop-down_form_mob 1s forwards; /* Chrome, Safari, Opera */
+animation: drop-down_form_mob 1s forwards; /* Chrome, Safari, Opera */
+}
+.atv_comparador .atv_recotizar .atv_recotizar_form.show_form
+{
+display:block;
+-webkit-animation: drop-down_form 1s forwards; /* Chrome, Safari, Opera */
+-moz-animation: drop-down_form 1s forwards; /* Chrome, Safari, Opera */
+-o-animation: drop-down_form 1s forwards; /* Chrome, Safari, Opera */
+animation: drop-down_form 1s forwards; /* Chrome, Safari, Opera */
+}
+.atv_comparador #close_button
+{
+display:none;
+}
+#form_recotizar form
+.atv_comparador .atv_recotizar .atv_recotizar_form form
+{
+max-width: 1140px;
+margin:0 auto;
+border:none;
+}
+#form_recotizar div,
+.atv_comparador .atv_recotizar .atv_recotizar_form form div{
+text-align:left;
+padding:10px;
+border:none;
+}
+#form_recotizar label,
+.atv_comparador .atv_recotizar .atv_recotizar_form form div label
+{
+display:block;
+}
+#form_recotizar input, #form_recotizar select,
+.atv_comparador .atv_recotizar .atv_recotizar_form form div input, .atv_comparador .atv_recotizar .atv_recotizar_form form div select
+{
+width:100%;
+height:40px;
+padding:5px;
+margin:7px 0;
+border-radius:4px;
+border:1px solid #333333;
+}
+
+.atv_recotizar.recotizar_back #form_recotizar input[type="number"]
+{
+width: 58px !important;
+}
+#form_recotizar  button,
+.atv_comparador .atv_recotizar .atv_recotizar_form form div button
+{
+width:100%;
+background:#e75f0c;
+color:white;
+text-transform:uppercase;
+text-align:center;
+padding:20px;
+border:none;
+font-size:1.5em;
+height:auto; 
+}
+
+/*recotizar back*/
+.atv_recotizar.recotizar_back
+{
+background-color: #51555a;
+font-size: 18px;
+color: #fff;
+text-align: right;
+text-transform: uppercase;
+height: 158px;
+}
+.atv_recotizar.recotizar_back #form_recotizar label{font-size: 12px;}
+.atv_recotizar.recotizar_back #form_recotizar input, .atv_recotizar.recotizar_back #form_recotizar select{width: 100%;
+height: 40px;
+padding: 5px;
+margin: 7px 0;
+border-radius: 4px;
+border: 1px solid #333333;}
+.atv_recotizar.recotizar_back #form_recotizar button{
+width: 100%;
+background: #e75f0c;
+color: white;
+text-transform: uppercase;
+text-align: center;
+padding: 9px;
+border: none;
+font-size: 1.2em;
+height: auto;
+margin-top: 20px;
+}
+.atv_comparador .atv_recotizar.recotizar_back .atv_recotizar_form{display:block;height: 158px;}
+/*.atv_recotizar.recotizar_back .atv_comparador_row.listado{display:none;}*/
+/*----------------------------------------------------------------------------------------------------------------*/
+/*recotizar front*/
+.atv_recotizar.recotizar_front
+{
+background-color: #51555a;
+font-size: 18px;
+color: #fff;
+text-align: right;
+text-transform: uppercase;
+height: auto;
+}
+.atv_recotizar.recotizar_front #form_recotizar label{font-size: 12px;}
+.atv_recotizar.recotizar_front #form_recotizar input, .atv_recotizar.recotizar_front #form_recotizar select{width: 100%;
+height: 40px;
+padding: 5px;
+margin: 7px 0;
+border-radius: 4px;
+border: 1px solid #333333;}
+.atv_recotizar.recotizar_front #form_recotizar button{
+width: 100%;
+background: #e75f0c;
+color: white;
+text-transform: uppercase;
+text-align: center;
+padding: 9px;
+border: none;
+font-size: 1.2em;
+height: auto;
+margin-top: 20px;       
+}    
+  
+/*.atv_recotizar.recotizar_front .atv_comparador_row.listado{display:none;}*/
+
+.atv_recotizar.recotizar_front #form_recotizar input[type="number"],  .atv_recotizar .atv_recotizar_form form div input[type="number"] {
+width: 18%;
+}
+
+/*----------------------------------------------------------------------------------------------------------------*/
+.atv_comparador .atv_h1{
+	font-size: 50px;
+}
+.atv_comparador .atv_h2{
+	font-size: 18px;
+}
+.atv_comparador .atv_comparador_row{  
+
+}
+
+
+.atv_comparador .atv_comparador_header {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 14px 0px;
+	text-align: center;
+}
+.atv_comparador .atv_comparador_header_compania{
+	background-color: #7d7d7d;
+}
+.atv_comparador .atv_comparador_header_basico{
+	background-color: #ff9251;
+}
+.atv_comparador .atv_comparador_header_recomendado{
+	background-color: #40247b;
+}
+.atv_comparador .atv_comparador_header_full{
+	background-color: #ff5f00;
+}
+.atv_comparador .atv_comparador_header_multiviaje{
+	background-color: #ff2400;
+}
+
+
+/* BOX GENERAL */
+.atv_comparador .atv_comparador_box{
+	font-size: 13px;
+	position: relative;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.atv_comparador .atv_comparador_box .atv_proveedor_mas{
+	font-size: 18px;
+}
+.atv_comparador .atv_comparador_box .atv_price{
+	color: #ff5f00;
+	font-size: 24px;
+	text-align: center;
+	padding: 20px 0px 15px 0px;
+}
+
+.atv_comparador .atv_comparador_box .atv_cobertura{
+	padding: 3px 0px;
+}
+.atv_comparador .atv_comparador_box .atv_cobertura .atv_cobertura_desc{
+	text-align: left;
+}
+.atv_comparador .atv_comparador_box .atv_cobertura .atv_cobertura_price{
+	text-align: right;
+	font-weight: bold;
+}
+.atv_comparador .atv_comparador_box .atv_info{
+	padding: 15px 0px;
+}
+.atv_comparador .atv_comparador_box .atv_info .atv_info_comparar{
+	text-align: left;
+}
+.atv_comparador .atv_comparador_box .atv_info .atv_info_mas{
+	text-align: right;
+	font-weight: bold;
+}
+.atv_comparador .atv_comparador_box .atv_info .atv_info_mas a{
+	color: #727272;
+	text-decoration: underline;
+}
+.atv_comparador .atv_comparador_box .atv_btns{
+	text-align: center;
+}
+.atv_comparador .atv_comparador_box .atv_btns .atv_comprar{
+	background-color: #ff5f00;
+	border: 1px solid #ff5f00;
+	color: #fff;
+	font-size: 18px;
+	padding: 8px 14px;
+	cursor: pointer;
+}
+
+/* BOX PARTICULAR PLANES */
+.atv_comparador .atv_comparador_box_logo {
+  color: #727272;
+  text-align: center;
+  padding-top: 7px;
+  padding-right: 7px;
+  /* width: 13%; */
+  text-align:left;
+} 
+.atv_comparador .atv_comparador_box_basico{
+	color: #727272;
+	padding: 7px;
+}
+.atv_comparador .atv_comparador_box_recomendado{
+	color: #727272;
+}
+.atv_comparador .atv_comparador_box_full{
+	color: #727272;
+}
+.atv_comparador .atv_comparador_box_multiviaje{
+	color: #727272;
+}
+
+
+
+
+
+
+/* BOX RECOMENDADO */
+.atv_comparador .atv_recomendado {
+	border: 4px solid #40247b;
+}
+.atv_comparador .atv_recomendado .atv_price{
+	color: #40247b;
+}
+.atv_comparador .atv_recomendado .atv_btns .atv_comprar{
+	background-color: #40247b;
+	border: 1px solid #40247b;
+}
+
+/* COMPONENTES */
+/* RIBBON */
+.atv_comparador .ribbon-wrapper-green {
+	width: 85px;
+	height: 88px;
+	overflow: hidden;
+	position: absolute;
+	top: -3px;
+	right: -3px;
+}
+.atv_comparador .ribbon-green {
+	font: bold 15px Sans-Serif;
+	color: #333;
+	text-align: center;
+	text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	position: relative;
+	padding: 7px 0;
+	left: -5px;
+	top: 15px;
+	width: 120px;
+	background-color: #BFDC7A;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#BFDC7A),
+		to(#8EBF45));
+	background-image: -webkit-linear-gradient(top, #BFDC7A, #8EBF45);
+	background-image: -moz-linear-gradient(top, #BFDC7A, #8EBF45);
+	background-image: -ms-linear-gradient(top, #BFDC7A, #8EBF45);
+	background-image: -o-linear-gradient(top, #BFDC7A, #8EBF45);
+	color: #6a6340;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
+}
+.atv_comparador .ribbon-green:before,.ribbon-green:after {
+	content: "";
+	border-top: 3px solid #6e8900;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	position: absolute;
+	bottom: -3px;
+}
+.atv_comparador .ribbon-green:before {
+	left: 0;
+}
+.atv_comparador .ribbon-green:after {
+	right: 0;
+}
+
+
+
+/* FOLDED */
+.atv_comparador div.folded {
+    background: #fff;
+    box-shadow: 0 0 3px rgba(0,0,0,0.25);
+    float: left;
+    height: 220px;
+    margin: 50px 0 0 45px;
+    position: relative;
+    text-align: center;
+    width: 210px;
+}
+.atv_comparador div.folded h2 {
+    background: #08b;
+    background-image: radial-gradient(transparent 30%, rgba(0, 0, 0, 0.2));
+    border: 0 solid rgba(0,0,0,0.2);
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    text-shadow: -1px -1px 1px rgba(0,0,0,0.2);
+}
+.atv_comparador div.folded:before,
+.atv_comparador div.folded:after {
+    bottom: 26px;
+    box-shadow: 0 28px 8px rgba(0,0,0,0.5);
+    content: "";
+    height: 28px;
+    position: absolute;
+    width: 48%;
+    z-index: -1;
+}
+.atv_comparador div.folded:before {
+    left: 2%;
+    transform: rotate(-3deg);
+}
+.atv_comparador div.folded:after {
+    right: 2%;
+    transform: rotate(3deg);
+}
+.atv_comparador div.folded h2 {
+    border-width: 1px 1px 2px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+    margin: 0;
+    padding: 4px 40px;
+    position: absolute;
+    right: -14px;
+    top: 12px;
+}
+.atv_comparador div.folded h2:after {
+    border-width: 7px;
+    border-style: solid;
+    border-color: #134 transparent transparent #134;
+    bottom: -15px;
+    content: "";
+    position: absolute;
+    right: -1px;
+}
+/*-------------------------------------------*/
+
+.listado
+{
+width: 100%;
+max-width: 1140px;
+margin: 0 auto;
+overflow: hidden;
+}
+.listado-full-width {
+width: 100%;
+min-width: initial;
+max-width: initial;
+}
+.atv_comparador .atv_recotizar .atv_comparador_row.listado a
+{
+padding: 6px 9px;
+background: #444;
+width: 187px;
+float: right;
+text-shadow: 0 -1px 0 rgba(0,0,0,0.9);
+}
+.atv_comparador .lista_comparacion article
+{
+border-bottom:1px solid #e5e5e5;
+}
+.atv_comparador .lista_comparacion article.recommend
+{
+box-shadow:0 0 6px rgba(46,12,147,0.6);
+position: relative;
+background:#e8e3fc;
+text-shadow: 0 1px 0 rgb(255,255,255);
+}
+.atv_comparador .lista_comparacion article.recommend .ribon
+{
+position: absolute;
+top: -6px;
+left: -6px;
+width: 104px;
+height: 104px;
+background: url("https://sistema.aseguratuviaje.com/App_Themes/img/recommend_bg.png") no-repeat top left;
+z-index: 200;
+}
+.atv_comparador .filter_button_mobile
+{
+display:none;
+}
+.atv_comparador_box.atv_comparador_filter.mobile
+{
+position: absolute;
+left: 0;
+background: white;
+border: 1px solid;
+height: auto;
+width: auto;
+z-index: 100;
+top: 131px;
+display:none;
+}
+.atv_comparador .planes
+{
+width: 80%;
+min-height: 90px;
+float: left;
+}
+.atv_comparador .instrucciones
+{
+
+min-height: 90px;
+background:#FFFFFF;}
+.atv_comparador .planes_fixed{
+position: fixed;
+right: 0;
+top: 0;
+}
+.atv_comparador .comparation_head_container
+{max-width: 1140px;
+margin: 0 auto;}
+
+/*sabana fix*/
+.atv_comparador_filter ul{margin:0;padding:0;}
+.atv_comparador .atv_comparador_filter ul li {
+padding: 2px 4px;
+border-bottom: 1px solid #e5e5e5;
+display: block;
+}
+.atv_comparador .atv_comparador_filter ul li.filter_title {
+background: #f2f2f2;
+padding: 4px 10px;
+line-height:normal;
+}
+.atv_comparador .instrucciones{padding:7px;}
+.atv_comparador figure img { 
+width: 99%;
+border: none;
+}
+.atv_comparador .atv_comparador_item_description {
+padding: 10px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+width: 40% !important;
+}
+.atv_comparador .cover_icons {
+margin-top: 1px;
+margin-left:0;
+}
+.atv_comparador h1 {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 24px;
+  float: left;
+  margin-right: 5px;
+}
+.atv_comparador .buy_section {
+position: relative;
+  padding-top: 0px;
+  padding-right: 73px;
+  margin-top: 12px;
+  text-align: right;
+}
+a, button{cursor:pointer;}
+.atv_comparador .comparation h1 {
+font-size: 1.5em;
+font-weight: bold;
+}
+.atv_comparador .comparation .detail_compration_list div:not(.item_detail_description){padding:7px;}
+.atv_comparador .planes_fixed {
+position: fixed;
+top: 0;
+width: 1010px !important;
+right: inherit;
+}
+.atv_form .lbl_texto {
+
+font-size: 15px !important;
+
+}
+.atv_comparador .buy_container {
+  margin-left: 0px !important;
+  /* width: auto; */
+  position: relative;
+  float: right;
+  padding-top: 9px;
+}
+.buy_container label{margin-top: 5px;
+display: block;}
+.atv_comparador .comparation h1 {
+font-size: 1.5em;
+font-weight: bold;
+width: auto;
+}
+/*-----------------------------------------------------------*/
+.images_sist_footer_container{position: relative;
+background-color: #ffffff;
+height: 30px;
+width: 100%;
+}
+.images_sist_footer_container ul{width:35%;margin:0 auto;}
+.images_sist_footer_container ul li{display:inline-block;}
+.atv_vertodo
+{
+    display:none;
+    clear:both;
+}
+.atv_comparador .atv_vertodo .detail div ul{margin-top:5px;padding-top:5px;}
+
+.atv_comparador .button.hidden {
+display: none;
+  width: 80%;
+  float: left;
+  font-size: 10px;
+  padding: 8px 9px;
+}
+
+.atv_comparador .button {  
+  clear: both;  
+  display: block;
+  width: 100%;
+  padding: 16px 22px 16px 22px;
+  text-align: center;
+  color: white;
+  margin: 5px 0 0 0;
+  text-shadow: 0 -1px 0 rgba(0,0,0,0.4);
+  font-size: 19px;
+  height: auto;
+  text-transform: uppercase; 
+}
+
+.atv_comparador .fixed_bottom button.button {
+  width: auto;
+  border: none;
+  text-transform: uppercase;
+  font-size: 13px;
+  float: left;
+  margin-left: 161px;
+  padding: 11px;
+  margin-top: 0;
+}
+
+
+.atv_comparador .buy_section .oferta {
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+  width: 50px;
+  height: 19px;
+  background: red;
+  position: absolute;
+  top: 2px;
+  color: white;
+  line-height: 11px;
+  padding: 3px 0 0 0;
+  z-index: 1;
+  right: -54px;
+}
+.atv_comparador .buy_section h3
+{
+font-size: 16px;
+  color: #2f1494;
+  text-decoration: line-through;
+  position: relative;
+  line-height: 24px;
+}
+.atv_comparador .buy_section h3.precio_final
+{
+font-size:22px;
+color:#2f1494;
+font-weight:bold;
+text-decoration: none;
+}
+/*RESPONSIVE*/ 
+@media (min-width:980px) and (max-width:1030px)
+{
+.atv_comparador .buy_section h3 {
+  font-size: 16px;
+
+}
+.atv_comparador .buy_section {
+
+  padding-right: 67px;
+
+}
+.atv_comparador .atv_comparador_item_description {
+  width: 39% !important; 
+}   
+.atv_comparador .item_list_actions a {
+  margin: 7px 0px 0 0px;
+}
+.atv_comparador .cover_icons li {
+  min-width: 81px;
+}
+.atv_comparador h1 {
+width: auto;
+}
+.atv_comparador .cover_icons li {
+max-width: 100px;
+}
+.atv_comparador .price_container {
+width: 124px;
+}
+
+
+	.atv_comparador_row .mobile-col-1-6, .mobile-col-2-12 {
+		width: 15.667%;
+	}
+		.atv_comparador_row .mobile-col-2-3, .mobile-col-8-12 {
+		width: 67.66%;
+	}
+.atv_comparador .comparation h1 {
+font-size: 1.5em;
+font-weight: bold;
+}
+.atv_comparador .buy_container {
+margin-left: 16px;
+/* width: auto; */
+}
+.atv_recotizar.recotizar_front #form_recotizar input, .atv_recotizar.recotizar_front #form_recotizar select {
+width: 100%;
+height: 40px;
+padding: 5px;
+margin: 7px 0;
+border-radius: 0px;
+border: 1px solid #333333;
+font-size: 13px;
+}
+} 
+
+@media (min-width:940px) and (max-width:980px)
+{
+.atv_comparador .atv_comparador_item_description {
+width: 59% !important;
+}
+.atv_comparador .buy_section {
+  position: relative;
+  padding-top: 14px;
+  width: 27% !important;
+}
+}
+
+@media (min-width:768px) and (max-width:980px)
+{
+.atv_comparador .buy_section .oferta {
+  left: 36%;
+}
+.atv_comparador .atv_comparador_item_description {
+width: 47% !important;}
+.atv_comparador h1 {
+  font-size: 16px;
+  font-weight: 600;
+  width: auto;
+  margin-right: 5px;
+  overflow: hidden;
+}
+
+.grid {
+max-width: 100% !important;
+min-width: 100% !important;
+}
+.listado {
+width: 100%;
+max-width: 100%;
+margin: 0 auto;
+overflow: hidden;
+}
+.gk-main-menu {
+padding-left: 21px !important;
+}
+div.header.top {
+margin-left: 39px !important;
+}
+
+.atv_comparador .cover_icons li {
+max-width: 89px;
+}
+.atv_comparador_item_description div:nth-child(2) {
+  padding: 0 5px;
+  float: right;
+}
+.atv_comparador .buy_section {
+  position: relative;
+  padding-top: 14px;
+  width: 36% !important;
+}
+.atv_comparador .price_container {
+  width: 45%;
+}
+.atv_comparador .button {
+padding: 10px 26px;
+}
+.atv_comparador .atv_comparador_box_basico {
+  color: #727272;
+  padding: 7px;
+  min-height: 114px;
+}
+}
+@media (min-width:640px) and (max-width:768px)
+{ 
+.atv_comparador .buy_section .oferta {
+  right: -29px;
+}
+.atv_comparador .atv_comparador_box_basico {
+color: #727272;
+padding: 7px;
+min-height: 316px;
+text-align:center;
+}
+.atv_comparador .atv_comparador_box_logo {
+    width: auto;
+  float: none;
+  max-width: 32%;
+  margin: 0 auto;
+}
+.atv_comparador .atv_comparador_item_description div.fl{float:none;}
+.atv_comparador .atv_comparador_item_description {
+
+  width: 100% !important;
+}
+.atv_comparador h1 {
+  width: auto;
+  text-align: center;
+}
+.atv_comparador_item_description div:nth-child(2) {
+  display: none;
+}
+
+.atv_comparador .atv_comparador_box_logo {
+  width: auto;
+  float: none;
+  max-width: 32%;
+  margin: 0 auto;
+  padding: 0;
+}
+.atv_comparador .atv_comparador_item_description {
+  width: 100%;
+  margin: 0;
+}
+.atv_comparador .buy_section {
+  position: relative;
+  padding-top: 0;
+  width: 128px !important;
+  float: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.atv_comparador .price_container {
+  width: 99%;
+  float: none;
+}
+.atv_comparador .buy_section h2 {
+  font-size: 152%;
+    max-width: 100%;
+  margin: 0 auto;
+}
+
+.atv_comparador .button {
+  padding: 16px 28px;
+  font-size: 23px;
+}
+.atv_comparador .buy_container {
+  width: 96%;
+  position: relative;
+  float: none;
+  margin: 0 auto;
+}
+.atv_comparador .no_compare_button
+{
+  width: 9%;
+  padding: 11px 0px;
+}
+.atv_comparador .button.hidden {
+width:90%;
+  font-size: 17px;
+
+}
+.atv_comparador .cover_icons {
+display:none;
+}
+.mobile-col-1-6, .mobile-col-2-12 {
+width: 26.667%;
+}
+.atv_comparador .atv_recotizar .atv_recotizar_form form div:nth-child(2)´
+{width: 44%;}
+	.atv_comparador_row .atv_comparador .item_list_actions a {
+	font-size: 9px;
+	line-height: 7px;
+	width: 49px;
+	}
+	.atv_comparador .filter_main_container
+	{
+	display:none;
+	}
+	.col-10-12.mobile-col-10-12.lista_comparacion
+	{
+	width:100%;
+	}
+	.atv_comparador .item_list_actions a {
+	width: 82px;
+	padding-top: 11px;
+	display: block;
+	float: none;
+	background-size: 28%;
+	background-position: center left;
+	height: 31px;
+	padding-left: 25px;
+	text-align: left;
+	margin:0 auto;
+	}
+	.atv_comparador .filter_button_mobile
+	{
+	display: block;
+	float: left !important;
+	width: auto !important;
+	text-transform: none;
+	font-size: 15px;
+	}
+}
+@media (min-width:568px) and (max-width:640px)
+{
+
+.atv_comparador .comparation .detail_compration_list{display:none;}
+	.atv_comparador_row .instrucciones
+	{display:none;}
+	.atv_comparador_row .atv_comparador .item_list_actions a {
+	font-size: 9px;
+	line-height: 7px;
+	width: 49px;
+	}
+	.atv_comparador .filter_main_container
+	{
+	display:none;
+	}
+	.col-10-12.mobile-col-10-12.lista_comparacion
+	{
+	width:100%;
+	}
+	.atv_comparador .item_list_actions a {
+	width: 82px;
+	padding-top: 11px;
+	display: block;
+	float: none;
+	background-size: 28%;
+	background-position: center left;
+	height: 31px;
+	padding-left: 25px;
+	text-align: left;
+	}
+	.atv_comparador .filter_button_mobile
+	{
+	display: block;
+	float: left !important;
+	width: auto !important; 
+	text-transform: none;  
+	font-size: 15px;
+	} 
+}
+@media (min-width:321px) and (max-width:568px)
+{
+.dyas_left{border:none;}
+header.container-fluid{min-height:210px;}
+.col-2-12.mobile-col-2-12.filter_main_container{display:none;}
+.atv_comparador .atv_comparador_filter{display:none;}
+.atv_comparador .buy_section label
+{
+display:none;
+}
+.atv_comparador .comparation .detail_compration_list{display:none;}
+	.atv_comparador_row .instrucciones
+	{display:none;}
+	.mobile-col-10-12 {
+	width: 100%;
+	}
+	.atv_comparador .filter_main_container
+	{
+	display:none;
+	}
+.atv_comparador .atv_recotizar .atv_comparador_row.listado a {
+	width: auto;
+	text-transform: none;
+	font-size: 15px;
+	}
+	.atv_comparador_row .mobile-col-1-6, .mobile-col-2-12
+	{
+	width:100%;
+	}
+	.atv_comparador figure img {
+	width: 30%;
+	}
+	.atv_comparador .atv_comparador_box_basico 
+	{
+	text-align:center;
+	}
+	.atv_comparador .atv_comparador_box_basico .fl
+	{
+	float:none !important;
+	}
+	[class*='col-']
+	{
+	float:none;
+	margin-top:0;
+	margin-bottom:0;
+	}
+
+	.atv_comparador .atv_comparador_item_description div:nth-child(2)
+	{
+	display:none;
+	}
+	.atv_comparador figure
+	{
+	border-bottom:1px dashed #cccccc;
+	}
+	.atv_comparador .fixed_bottom button.button
+	{
+	float:none;
+	margin: 0 auto;
+	}
+	.atv_comparador .button
+	{
+	margin-bottom:5px;
+	}
+	.atv_comparador .fixed_bottom div p
+	{
+	display:none;
+	}
+	.atv_comparador .lista_comparacion article {
+	border-bottom: 1px solid #cccccc;
+	margin: 2px;
+	}
+	.atv_comparador .atv_comparador_box_logo
+	{
+	padding-top:0;
+	}
+	.atv_comparador .fixed_bottom div
+	{
+	padding:10px 0 0 0;
+	}
+	.atv_comparador figure img {
+	width: 33%;
+	}
+		.atv_comparador .atv_recotizar {
+	font-size: 15px;
+	}
+	.atv_comparador .atv_recotizar .atv_recotizar_form form div input, .atv_comparador .atv_recotizar .atv_recotizar_form form div select {
+	height: 30px;
+	}
+	.atv_comparador .atv_recotizar .atv_recotizar_form form div input[type="number"] {
+	width: 53px;
+	}
+	
+	
+	.atv_comparador .lista_comparacion article {
+border-bottom: 1px solid #cccccc;
+margin: 7px 0;
+}
+.atv_comparador .atv_comparador_box_logo {
+color: #727272;
+text-align: center;
+padding: 0;
+width: auto;
+}
+.atv_comparador figure {
+border-bottom: 1px dashed #cccccc;
+border: none;
+}
+.atv_comparador .atv_comparador_item_description {
+padding: 10px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+width: 100% !important;
+text-align: center;
+}
+.atv_comparador h1 {
+font-size: 1.5em;
+font-weight: 600;
+width: auto;
+float:none;
+}	
+.atv_comparador .buy_section {
+	position: relative;
+    padding-top: 0;
+    width: 100% !important;
+    text-align: center;
+    padding-right: 0;
+}
+.atv_comparador .atv_comparador_box_basico .fl {
+float: none !important;
+width: 100%;
+}
+.atv_comparador .buy_section .oferta{
+right:0;
+}
+.atv_comparador .buy_section h2 {
+font-weight: bold;
+text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+font-size: 139%;
+line-height: normal;
+display:none;
+}
+.atv_comparador .price_container .second_price {
+font-size: 24px;
+color: #666666;
+line-height: normal;
+}
+}
+@media (max-width:320px)    
+{
+.atv_comparador .buy_section .oferta{right:0;}
+.dyas_left{border:none;}
+header.container-fluid{min-height:210px;}
+.atv_comparador .price_container .second_price {
+font-size: 24px;
+color: #666666;
+line-height: normal;
+}
+.atv_comparador .buy_section h2 {
+font-weight: bold;
+text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+font-size: 139%;
+line-height: normal;
+display:none;
+}
+.atv_comparador .atv_comparador_box_basico .fl {
+float: none !important;
+width: 100%;
+}
+.atv_comparador .buy_section {
+    position: relative;
+    padding-top: 0;
+    width: 100% !important;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.atv_comparador h1 {
+font-size: 1.5em;
+font-weight: 600;
+width: auto;
+float:none;
+}
+.atv_comparador .atv_comparador_item_description {
+padding: 10px;
+text-shadow: 0 1px 0 rgba(255,255,255,0.4);
+width: 100% !important;
+text-align: center;
+}
+.atv_comparador figure {
+
+border: none;
+}
+.atv_comparador .atv_comparador_box_logo {
+color: #727272;
+text-align: center;
+padding: 0;
+width: auto;
+}
+.atv_comparador .lista_comparacion article {
+border-bottom: 1px solid #cccccc;
+margin: 7px 0;
+}
+.atv_comparador .atv_comparador_filter{display:none !important;}
+.col-2-12.mobile-col-2-12.filter_main_container{display:none;}
+.atv_comparador .buy_section label
+{
+display:none;
+}
+.atv_comparador .comparation .detail_compration_list{display:none;}
+	.atv_comparador_row .instrucciones
+	{display:none;}
+	.atv_comparador .filter_main_container   
+	{
+	display:none; 
+	}
+	.atv_comparador .atv_recotizar .atv_comparador_row.listado a {
+	width: auto;
+	text-transform: none;
+	font-size: 15px;
+	}
+	.atv_comparador_row .mobile-col-1-6, .mobile-col-2-12
+	{
+	width:100%;
+	}
+	.atv_comparador figure img {
+	width: 33%;
+	}
+	.atv_comparador .atv_comparador_box_basico 
+	{
+	text-align:center;
+	}
+	.atv_comparador .atv_comparador_box_basico .fl
+	{
+	float: none !important;
+    margin-top: 5px;
+    width: 100%;
+	}
+	[class*='col-']
+	{
+	float:none;
+	margin-top:0;
+	margin-bottom:0;
+	}
+.atv_comparador .cover_icons li {
+    padding-top: 35px;
+    max-width: 102px;
+    margin: 0 0px;
+    padding: 35px 0px 0 0px;
+    border-right: 1px dashed #cccccc;
+    min-width: 94px;
+	
+}
+	.atv_comparador .atv_comparador_item_description div:nth-child(2)
+	{
+	display:none;
+	}
+	.atv_comparador figure
+	{
+	
+	}
+	.atv_comparador .fixed_bottom button.button
+	{
+	float:none;
+	margin: 0 auto;
+	}
+	.atv_comparador .button
+	{
+	margin-bottom:5px;
+	}
+	.atv_comparador .fixed_bottom div p
+	{
+	display:none;
+	}
+	.atv_comparador .lista_comparacion article {
+	border-bottom: 1px solid #cccccc;
+	margin: 2px;
+	}
+	.atv_comparador .atv_comparador_box_logo
+	{
+	padding-top:0;
+	}
+	.atv_comparador .fixed_bottom div
+	{
+	padding:10px 0 0 0;
+	}
+	.mobile-col-10-12 {
+	width: 100%;
+	}
+	.atv_comparador .atv_recotizar {
+	font-size: 15px;
+	}
+	.atv_comparador .atv_recotizar .atv_recotizar_form form div input, .atv_comparador .atv_recotizar .atv_recotizar_form form div select {
+	height: 30px;
+	}
+	.atv_comparador .atv_recotizar .atv_recotizar_form form div input[type="number"] {
+	width: 53px;
+	}
+}
+.titcantdias 
+{display: inline;
+    float: right;
+    font-size: 13px;}

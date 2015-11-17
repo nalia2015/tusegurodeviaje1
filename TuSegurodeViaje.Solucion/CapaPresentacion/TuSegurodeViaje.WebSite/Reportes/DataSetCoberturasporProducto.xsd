@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSetCoberturasporProducto" targetNamespace="http://tempuri.org/DataSetCoberturasporProducto.xsd" xmlns:mstns="http://tempuri.org/DataSetCoberturasporProducto.xsd" xmlns="http://tempuri.org/DataSetCoberturasporProducto.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSetCoberturasporProducto" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSetCoberturasporProducto" msprop:Generator_UserDSName="DataSetCoberturasporProducto">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Table" msprop:Generator_TableClassName="TableDataTable" msprop:Generator_TableVarName="tableTable" msprop:Generator_RowChangedName="TableRowChanged" msprop:Generator_TablePropName="Table" msprop:Generator_RowDeletingName="TableRowDeleting" msprop:Generator_RowChangingName="TableRowChanging" msprop:Generator_RowEvHandlerName="TableRowChangeEventHandler" msprop:Generator_RowDeletedName="TableRowDeleted" msprop:Generator_RowClassName="TableRow" msprop:Generator_UserTableName="Table" msprop:Generator_RowEvArgName="TableRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdProducto" msprop:Generator_ColumnVarNameInTable="columnIdProducto" msprop:Generator_ColumnPropNameInRow="IdProducto" msprop:Generator_ColumnPropNameInTable="IdProductoColumn" msprop:Generator_UserColumnName="IdProducto" type="xs:int" minOccurs="0" />
+              <xs:element name="IdCobertura" msprop:Generator_ColumnVarNameInTable="columnIdCobertura" msprop:Generator_ColumnPropNameInRow="IdCobertura" msprop:Generator_ColumnPropNameInTable="IdCoberturaColumn" msprop:Generator_UserColumnName="IdCobertura" type="xs:int" minOccurs="0" />
+              <xs:element name="DescripcionCobertura" msprop:Generator_ColumnVarNameInTable="columnDescripcionCobertura" msprop:Generator_ColumnPropNameInRow="DescripcionCobertura" msprop:Generator_ColumnPropNameInTable="DescripcionCoberturaColumn" msprop:Generator_UserColumnName="DescripcionCobertura" type="xs:string" minOccurs="0" />
+              <xs:element name="ValorCobertura" msprop:Generator_ColumnVarNameInTable="columnValorCobertura" msprop:Generator_ColumnPropNameInRow="ValorCobertura" msprop:Generator_ColumnPropNameInTable="ValorCoberturaColumn" msprop:Generator_UserColumnName="ValorCobertura" type="xs:int" minOccurs="0" />
+              <xs:element name="TipoMoneda" msprop:Generator_ColumnVarNameInTable="columnTipoMoneda" msprop:Generator_ColumnPropNameInRow="TipoMoneda" msprop:Generator_ColumnPropNameInTable="TipoMonedaColumn" msprop:Generator_UserColumnName="TipoMoneda" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

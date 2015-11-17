@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaAccesoDatos", "CapaAccesoDatos", "{37CDC813-930C-453E-8C1D-300B3F110324}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaNegocio", "CapaNegocio", "{0A59C764-9E7C-4109-AE7C-41E1AE107947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaPresentacion", "CapaPresentacion", "{4757B0F2-324C-459E-96A4-8842CBE3135E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuSegurodeViaje.AccesoDatos", "CapaAccesoDatos\TuSegurodeViaje.AccesoDatos\TuSegurodeViaje.AccesoDatos.csproj", "{F38005EC-3797-4C17-A84E-CC56FD04A38A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuSegurodeViaje.LogicadeNegocio", "CapaNegocio\TuSegurodeViaje.LogicadeNegocio\TuSegurodeViaje.LogicadeNegocio.csproj", "{1CE5D224-883D-4ADF-9083-27DD8B2F9070}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuSegurodeViaje.WebSite", "CapaPresentacion\TuSegurodeViaje.WebSite\TuSegurodeViaje.WebSite.csproj", "{28F186B9-BD35-438C-968F-2C6BDD351EE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F38005EC-3797-4C17-A84E-CC56FD04A38A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38005EC-3797-4C17-A84E-CC56FD04A38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38005EC-3797-4C17-A84E-CC56FD04A38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38005EC-3797-4C17-A84E-CC56FD04A38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE5D224-883D-4ADF-9083-27DD8B2F9070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE5D224-883D-4ADF-9083-27DD8B2F9070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE5D224-883D-4ADF-9083-27DD8B2F9070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE5D224-883D-4ADF-9083-27DD8B2F9070}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28F186B9-BD35-438C-968F-2C6BDD351EE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28F186B9-BD35-438C-968F-2C6BDD351EE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28F186B9-BD35-438C-968F-2C6BDD351EE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28F186B9-BD35-438C-968F-2C6BDD351EE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F38005EC-3797-4C17-A84E-CC56FD04A38A} = {37CDC813-930C-453E-8C1D-300B3F110324}
+		{1CE5D224-883D-4ADF-9083-27DD8B2F9070} = {0A59C764-9E7C-4109-AE7C-41E1AE107947}
+		{28F186B9-BD35-438C-968F-2C6BDD351EE4} = {4757B0F2-324C-459E-96A4-8842CBE3135E}
+	EndGlobalSection
+EndGlobal
